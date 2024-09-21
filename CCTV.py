@@ -1,3 +1,6 @@
+# Author:- Arpit Mahajan
+# Title:- Camera Module In Python And Flask
+
 from flask import Flask, render_template, Response
 import cv2
 
@@ -39,45 +42,6 @@ def video():
 if __name__ == "__main__":
     # If Debug Is Equal To True Then No Need Of Reloading...
     app.run(debug=True)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
